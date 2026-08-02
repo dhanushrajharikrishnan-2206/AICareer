@@ -1,0 +1,133 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------- Phase 1: Foundation ----------
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  passwordHash  String?
+  role          String    @default("USER")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  resumes       Resume[]
+  analyses      ResumeAnalysis[]
+  coverLetters  CoverLetter[]
+  chatMessages  CoachMessage[]
+  savedJobs     SavedJob[]
+  skillProgress SkillProgress[]
+  interviews    MockInterview[]
+}
+
+
+model Resume {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String   @default("Untitled resume")
+  content   Json     // structured resume data: summary, experience[], education[], skills[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  analyses     ResumeAnalysis[]
+  coverLetters CoverLetter[]
+}
+
+// ---------- Phase 2: AI ----------
+
+model ResumeAnalysis {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resumeId   String
+  resume     Resume   @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+  jobTitle   String?
+  atsScore   Int?
+  strengths  Json?    // string[]
+  weaknesses Json?    // string[]
+  suggestions Json?   // string[]
+  rawResponse String?
+  createdAt  DateTime @default(now())
+}
+
+model CoverLetter {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resumeId  String
+  resume    Resume   @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+  jobTitle  String
+  company   String
+  content   String
+  createdAt DateTime @default(now())
+}
+
+model CoachMessage {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role      String   // "user" | "assistant"
+  content   String
+  createdAt DateTime @default(now())
+}
+
+// ---------- Phase 3: Jobs ----------
+
+model Job {
+  id          String   @id @default(cuid())
+  title       String
+  company     String
+  location    String?
+  description String
+  url         String?
+  postedAt    DateTime @default(now())
+
+  savedBy     SavedJob[]
+}
+
+model SavedJob {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  jobId     String
+  job       Job      @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  matchScore Int?
+  createdAt DateTime @default(now())
+
+  @@unique([userId, jobId])
+}
+
+// ---------- Phase 4: Learning ----------
+
+model SkillProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skillName   String
+  status      String   @default("not_started") // not_started | in_progress | done
+  proficiency String   @default("Beginner")    // Beginner | Intermediate | Advanced
+  updatedAt   DateTime @updatedAt
+}
+
+// ---------- Phase 5: Interview ----------
+
+model MockInterview {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type       String   // technical | hr | aptitude
+  difficulty String?  @default("intermediate") // beginner | intermediate | advanced
+  questions  Json
+  answers    Json?
+  feedback   String?
+  score      Int?
+  createdAt  DateTime @default(now())
+}

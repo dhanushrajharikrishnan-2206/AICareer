@@ -1,0 +1,597 @@
+{
+  "users": [
+    {
+      "id": "ppwgsx5",
+      "createdAt": "2026-07-21T05:20:07.337Z",
+      "updatedAt": "2026-07-21T05:20:07.337Z",
+      "name": "KamalRaj",
+      "email": "kamalswe@gmail.com",
+      "passwordHash": "$2a$10$zVi9CaOgeDxKJ/8PCT2TleARnWbo1wK9.AMG4bdLQ4OE0rPHIYJly"
+    },
+    {
+      "id": "demo-user-id",
+      "createdAt": "2026-07-21T05:20:07.337Z",
+      "updatedAt": "2026-07-21T05:20:07.337Z",
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "passwordHash": "$2a$10$KMlygfu0ljA8tmssFvf4geIqIMuuV5B0YJKRiRkbb27NPSQE1VUBK"
+    },
+    {
+      "id": "zlnxn3m",
+      "createdAt": "2026-07-21T14:03:17.794Z",
+      "updatedAt": "2026-07-21T14:03:17.794Z",
+      "name": "navin",
+      "email": "dharsandeva2007@gmail.com",
+      "passwordHash": "$2a$10$.Wd8bXRxYBb1oiMFzO1kg.BIG/vOc3sJP2gGwPSvycOzgXQWjJrwC"
+    },
+    {
+      "id": "kfiixcb",
+      "createdAt": "2026-07-24T17:34:07.484Z",
+      "updatedAt": "2026-07-24T17:34:07.484Z",
+      "name": "kifa sathar",
+      "email": "kifasathar786@gmail.com",
+      "passwordHash": "$2a$10$BWq0k8oFek/ciIAJ61VxSerTalVSlAk1dC7oZPuMECv.h1.eu/ehW"
+    }
+  ],
+  "resumes": [],
+  "resumeAnalyses": [
+    {
+      "id": "tkufp2c",
+      "createdAt": "2026-07-21T16:35:34.696Z",
+      "updatedAt": "2026-07-21T16:35:34.696Z",
+      "userId": "zlnxn3m",
+      "resumeId": "active-temp",
+      "atsScore": 20,
+      "suggestions": [
+        "Highlight transferable skills such as project management and leadership",
+        "Emphasize any experience with marketing or HR-related projects"
+      ],
+      "rawResponse": "{\n  \"atsScore\": 20,\n  \"matchedKeywords\": [\"Project Management\", \" Leadership\"],\n  \"missingKeywords\": [\"Marketing\", \"Human Resources\", \"Recruitment\", \"Employer Branding\", \"Talent Acquisition\"],\n  \"suggestions\": [\"Highlight transferable skills such as project management and leadership\", \"Emphasize any experience with marketing or HR-related projects\"],\n  \"howToLearn\": [\"Digital Marketing Fundamentals\", \"HR Principles and Practices\"],\n  \"whereToLearn\": [\n    { \"platform\": \"Coursera\", \"url\": \"https://www.coursera.org\" },\n    { \"platform\": \"edX\", \"url\": \"https://www.edx.org\" },\n    { \"platform\": \"HubSpot Academy\", \"url\": \"https://academy.hubspot.com\" },\n    { \"platform\": \"Society for Human Resource Management (SHRM)\", \"url\": \"https://www.shrm.org\" }\n  ],\n  \"jobOpportunities\": [\n    { \"role\": \"Recruitment Marketing Specialist\", \"demand\": \"Growing\", \"salaryRange\": \"$60,000 - $90,000 /yr\" },\n    { \"role\": \"HR Marketing Manager\", \"demand\": \"Medium\", \"salaryRange\": \"$80,000 - $110,000 /yr\" }\n  ],\n  \"skillImprovementTips\": [\n    \"Develop a strong understanding of marketing principles and how they apply to HR\",\n    \" Familiarize yourself with HR software and recruitment marketing tools\",\n    \"Create a personal project that showcases your ability to build an employer brand and attract top talent\"\n  ],\n  \"top5InterviewTips\": [\n    { \"tip\": \"Showcase Transferable Skills\", \"description\": \"Highlight how your project management and leadership experience can be applied to a marketing HR role, such as managing projects related to employer branding or talent acquisition.\" },\n    { \"tip\": \"Demonstrate Marketing Knowledge\", \"description\": \"Study up on marketing principles and be prepared to discuss how you would apply them to an HR role, such as creating a social media campaign to attract top talent.\" },\n    { \"tip\": \"Emphasize HR-related Experience\", \"description\": \"Even if you don't have direct HR experience, highlight any experience you have working with employees, managing teams, or developing leadership skills, and explain how these skills can be applied to an HR role.\" },\n    { \"tip\": \"Prepare to Discuss Employer Branding\", \"description\": \"Be prepared to discuss how you would build and maintain a strong employer brand, including strategies for creating a positive company culture and attracting top talent.\" },\n    { \"tip\": \"Show Enthusiasm for the Field\", \"description\": \"Demonstrate your passion for marketing and HR, and explain why you're excited about the opportunity to combine these fields in a recruitment marketing specialist or HR marketing manager role.\" }\n  ]\n}"
+    },
+    {
+      "id": "yq4hm8f",
+      "createdAt": "2026-07-21T16:57:47.219Z",
+      "updatedAt": "2026-07-21T16:57:47.219Z",
+      "userId": "zlnxn3m",
+      "resumeId": "active-temp",
+      "atsScore": 15,
+      "suggestions": [
+        "Your current resume reflects a career in Project Management and Lean process improvement, which heavily mismatches the technical requirements of a Front-End Developer position.",
+        "If you are transitioning to software development, replace your project management metrics with technical skills, programming languages (HTML, CSS, JavaScript), and web development projects.",
+        "Include links to live web projects, a GitHub portfolio, or a personal website showcasing interactive web components you have built."
+      ],
+      "rawResponse": "{\n  \"atsScore\": 15,\n  \"matchedKeywords\": [\n    \"Strategic Planning & Analysis\",\n    \"Communication\"\n  ],\n  \"missingKeywords\": [\n    \"Front-End Developer\",\n    \"UI/UX wireframes\",\n    \"Markup\",\n    \"Performance Optimization\",\n    \"JavaScript\",\n    \"HTML\",\n    \"CSS\",\n    \"Interactive Components\"\n  ],\n  \"suggestions\": [\n    \"Your current resume reflects a career in Project Management and Lean process improvement, which heavily mismatches the technical requirements of a Front-End Developer position.\",\n    \"If you are transitioning to software development, replace your project management metrics with technical skills, programming languages (HTML, CSS, JavaScript), and web development projects.\",\n    \"Include links to live web projects, a GitHub portfolio, or a personal website showcasing interactive web components you have built.\"\n  ],\n  \"howToLearn\": [\n    \"HTML5 & Semantic Markup\",\n    \"Modern CSS, Flexbox, CSS Grid, and Responsive Web Design\",\n    \"JavaScript ES6+ Core Concepts & DOM Manipulation\",\n    \"Front-End Frameworks (React, Vue, or Angular)\",\n    \"UI/UX Design Translation (Figma to Code)\",\n    \"Web Performance Optimization & Core Web Vitals\"\n  ],\n  \"whereToLearn\": [\n    {\n      \"platform\": \"freeCodeCamp\",\n      \"url\": \"https://www.freecodecamp.org\"\n    },\n    {\n      \"platform\": \"MDN Web Docs\",\n      \"url\": \"https://developer.mozilla.org\"\n    },\n    {\n      \"platform\": \"Coursera\",\n      \"url\": \"https://www.coursera.org\"\n    },\n    {\n      \"platform\": \"Udemy\",\n      \"url\": \"https://www.udemy.com\"\n    }\n  ],\n  \"jobOpportunities\": [\n    {\n      \"role\": \"Junior Front-End Developer\",\n      \"demand\": \"High\",\n      \"salaryRange\": \"$65,000 - $85,000 /yr\"\n    },\n    {\n      \"role\": \"Technical Project Manager (Web Projects)\",\n      \"demand\": \"High\",\n      \"salaryRange\": \"$95,000 - $130,000 /yr\"\n    },\n    {\n      \"role\": \"UI/UX Developer\",\n      \"demand\": \"Growing\",\n      \"salaryRange\": \"$80,000 - $110,000 /yr\"\n    }\n  ],\n  \"skillImprovementTips\": [\n    \"Build a portfolio of responsive web applications that demonstrate how you turn Figma/Adobe XD designs into clean, functional code.\",\n    \"Focus on core web performance techniques like image compression, code splitting, lazy loading, and minimizing DOM operations.\",\n    \"If you wish to combine your PM background with dev work, emphasize technical communication and cross-functional collaboration between design and engineering teams.\"\n  ],\n  \"top5InterviewTips\": [\n    {\n      \"tip\": \"Articulate the Career Pivot Narrative\",\n      \"description\": \"Be ready to explain clearly why you are transitioning from Project Management to Front-End Development, highlighting how your project delivery background makes you a disciplined engineer.\"\n    },\n    {\n      \"tip\": \"Prepare to Live-Code UI Components\",\n      \"description\": \"Front-end interviews often involve building a UI component (like a modal, navbar, or carousel) live using HTML, CSS, and plain JavaScript or React.\"\n    },\n    {\n      \"tip\": \"Explain Design-to-Code Workflow\",\n      \"description\": \"Detail how you inspect UI/UX wireframes in tools like Figma to extract dimensions, fonts, and colors, turning them accurately into responsive layouts.\"\n    },\n    {\n      \"tip\": \"Discuss Performance Tuning Strategies\",\n      \"description\": \"Demonstrate knowledge of modern performance metrics (LCP, FID, CLS) and tactical steps like asset minification and caching to speed up web page load times.\"\n    },\n    {\n      \"tip\": \"Demonstrate Responsive Design Mastery\",\n      \"description\": \"Expect questions on mobile-first architecture, fluid typography, media queries, and using CSS Grid or Flexbox to adapt web applications to various screen sizes.\"\n    }\n  ]\n}"
+    },
+    {
+      "id": "i49xnp6",
+      "createdAt": "2026-07-22T01:13:07.706Z",
+      "updatedAt": "2026-07-22T01:13:07.706Z",
+      "userId": "zlnxn3m",
+      "resumeId": "active-temp",
+      "atsScore": 15,
+      "suggestions": [
+        "Your current resume is heavily focused on project management and operations; it lacks the technical programming skills required for a Full Stack Developer role.",
+        "Transition the resume to highlight technical projects (coding) rather than process improvements (Lean).",
+        "Include a portfolio link (GitHub/Deployed projects) to prove technical proficiency."
+      ],
+      "rawResponse": "{\n  \"atsScore\": 15,\n  \"matchedKeywords\": [\"project management\", \"project lifecycle\"],\n  \"missingKeywords\": [\"JavaScript\", \"React\", \"Node.js\", \"SQL\", \"Full Stack\", \"API\", \"HTML/CSS\", \"Git\", \"Software Development\"],\n  \"suggestions\": [\n    \"Your current resume is heavily focused on project management and operations; it lacks the technical programming skills required for a Full Stack Developer role.\",\n    \"Transition the resume to highlight technical projects (coding) rather than process improvements (Lean).\",\n    \"Include a portfolio link (GitHub/Deployed projects) to prove technical proficiency.\"\n  ],\n  \"howToLearn\": [\n    \"Master JavaScript, HTML, and CSS fundamentals\",\n    \"Learn front-end frameworks like React or Vue\",\n    \"Develop back-end proficiency with Node.js and Express\",\n    \"Master database management using PostgreSQL or MongoDB\"\n  ],\n  \"whereToLearn\": [\n    { \"platform\": \"Coursera\", \"url\": \"https://www.coursera.org\" },\n    { \"platform\": \"freeCodeCamp\", \"url\": \"https://www.freecodecamp.org\" },\n    { \"platform\": \"Udemy\", \"url\": \"https://www.udemy.com\" },\n    { \"platform\": \"Official Documentation\", \"url\": \"https://developer.mozilla.org\" }\n  ],\n  \"jobOpportunities\": [\n    { \"role\": \"Junior Full Stack Developer\", \"demand\": \"High\", \"salaryRange\": \"$75,000 - $95,000 /yr\" },\n    { \"role\": \"Software Engineer\", \"demand\": \"High\", \"salaryRange\": \"$90,000 - $130,000 /yr\" }\n  ],\n  \"skillImprovementTips\": [\n    \"Build three end-to-end applications (e.g., Task Manager, E-commerce store) to demonstrate Full Stack capabilities.\",\n    \"Contribute to open-source projects on GitHub to show collaborative coding experience.\"\n  ],\n  \"top5InterviewTips\": [\n    { \"tip\": \"Technical Portfolio Deep-Dive\", \"description\": \"Be ready to explain the architecture of your projects, including why you chose a specific database or framework.\" },\n    { \"tip\": \"Algorithm Proficiency\", \"description\": \"Practice coding challenges (LeetCode/HackerRank) as you will likely face a live technical screening.\" },\n    { \"tip\": \"System Design Fundamentals\", \"description\": \"Understand how a request flows from the client-side to the server and back to the database.\" },\n    { \"tip\": \"Version Control (Git)\", \"description\": \"Be prepared to explain your Git workflow, specifically how you manage branches, pull requests, and merges.\" },\n    { \"tip\": \"Debugging Methodology\", \"description\": \"Describe your process for troubleshooting production bugs—showing you can isolate issues systematically is highly valued.\" }\n  ]\n}"
+    },
+    {
+      "id": "d3o6hse",
+      "createdAt": "2026-07-24T17:48:25.409Z",
+      "updatedAt": "2026-07-24T17:48:25.409Z",
+      "userId": "kfiixcb",
+      "resumeId": "active-temp",
+      "atsScore": 72,
+      "suggestions": [
+        "Incorporate project management terminology (e.g., Agile, Scrum, JIRA, sprint planning) to directly match the JD's requirement for project management excellence.",
+        "Detail your backend capabilities beyond Supabase/Firebase by explicitly mentioning RESTful APIs, microservices, or database design.",
+        "Add metrics and quantifiable outcomes to your intern and technical lead experience (e.g., optimized load time by 30%, led team of X developers).",
+        "Add explicit mentions of software engineering practices like code reviews, version control workflows, unit testing, and continuous integration."
+      ],
+      "rawResponse": "{\n  \"atsScore\": 72,\n  \"matchedKeywords\": [\n    \"Software Development\",\n    \"Problem-Solving\",\n    \"Python\",\n    \"JavaScript\",\n    \"Full Stack Development\",\n    \"Git\",\n    \"Communication\"\n  ],\n  \"missingKeywords\": [\n    \"Project Management\",\n    \"Agile Methodology\",\n    \"REST APIs\",\n    \"Unit Testing\",\n    \"CI/CD\",\n    \"System Design\",\n    \"SQL / Relational Databases\"\n  ],\n  \"suggestions\": [\n    \"Incorporate project management terminology (e.g., Agile, Scrum, JIRA, sprint planning) to directly match the JD's requirement for project management excellence.\",\n    \"Detail your backend capabilities beyond Supabase/Firebase by explicitly mentioning RESTful APIs, microservices, or database design.\",\n    \"Add metrics and quantifiable outcomes to your intern and technical lead experience (e.g., optimized load time by 30%, led team of X developers).\",\n    \"Add explicit mentions of software engineering practices like code reviews, version control workflows, unit testing, and continuous integration.\"\n  ],\n  \"howToLearn\": [\n    \"Agile & Scrum Software Development Frameworks\",\n    \"System Design & Software Architecture Fundamentals\",\n    \"RESTful API Engineering & Backend Architecture\",\n    \"Automated Software Testing & CI/CD Pipelines\",\n    \"Data Structures & Algorithms for Technical Screenings\"\n  ],\n  \"whereToLearn\": [\n    {\n      \"platform\": \"Coursera\",\n      \"url\": \"https://www.coursera.org\"\n    },\n    {\n      \"platform\": \"freeCodeCamp\",\n      \"url\": \"https://www.freecodecamp.org\"\n    },\n    {\n      \"platform\": \"Udemy\",\n      \"url\": \"https://www.udemy.com\"\n    },\n    {\n      \"platform\": \"Official Documentation (MDN / Developer Guides)\",\n      \"url\": \"https://developer.mozilla.org\"\n    }\n  ],\n  \"jobOpportunities\": [\n    {\n      \"role\": \"Associate Software Engineer\",\n      \"demand\": \"High\",\n      \"salaryRange\": \"$70,000 - $95,000 /yr\"\n    },\n    {\n      \"role\": \"Junior Full Stack Developer\",\n      \"demand\": \"High\",\n      \"salaryRange\": \"$65,000 - $90,000 /yr\"\n    },\n    {\n      \"role\": \"AI Applications Developer\",\n      \"demand\": \"Growing\",\n      \"salaryRange\": \"$85,000 - $115,000 /yr\"\n    }\n  ],\n  \"skillImprovementTips\": [\n    \"Build a full-stack project utilizing standard SQL databases (PostgreSQL/MySQL) and REST APIs, then document the project lifecycle using Agile principles.\",\n    \"Implement unit and integration testing frameworks (such as Jest or PyTest) in your existing hackathon projects to demonstrate quality assurance experience.\",\n    \"Set up GitHub Actions to create automated CI/CD pipelines for your Vercel/Netlify deployments.\"\n  ],\n  \"top5InterviewTips\": [\n    {\n      \"tip\": \"Articulate Project Management Frameworks\",\n      \"description\": \"Be ready to explain how you managed timelines, tasks, and team dynamics during your hackathons and leadership roles using Agile or Scrum principles.\"\n    },\n    {\n      \"tip\": \"Highlight Problem-Solving and Data Structures\",\n      \"description\": \"Leverage your 'Best Male Coder' award and C++/Java DSA experience by clearly walking through algorithm trade-offs (Time and Space Complexity) on live coding interviews.\"\n    },\n    {\n      \"tip\": \"Demonstrate Technical Breadth in Full Stack & AI\",\n      \"description\": \"Prepare concise narratives on how you integrated AI workflows into web applications, connecting frontend UI/UX to backend services and APIs.\"\n    },\n    {\n      \"tip\": \"Use the STAR Method for Behavioral Questions\",\n      \"description\": \"Structure answers regarding leadership, communication, and conflict resolution using Situation, Task, Action, and Result, highlighting your achievements in team settings.\"\n    },\n    {\n      \"tip\": \"Prepare Questions on Engineering Culture and Standards\",\n      \"description\": \"Ask interviewers about their development processes, CI/CD practices, code review standards, and project management tools to show high technical maturity.\"\n    }\n  ]\n}"
+    }
+  ],
+  "coverLetters": [
+    {
+      "id": "rzgq53s",
+      "createdAt": "2026-07-21T16:42:32.729Z",
+      "updatedAt": "2026-07-21T16:42:32.729Z",
+      "userId": "zlnxn3m",
+      "jobTitle": "frontend",
+      "company": "google",
+      "content": "I'm excited to apply for the Frontend role at Google, where I can leverage my unique blend of project management expertise and passion for technology to drive innovation. As a seasoned PMP with 7+ years of experience growing revenue for a Massachusetts-based electronics firm, I'm confident in my ability to navigate complex projects and lead cross-functional teams.\n\nAlthough my background is in law and project management, I'm eager to bring my transferable skills to the forefront and explore the tech industry. My experience in managing successful projects, such as the Lean Training project, has taught me the importance of attention to detail, strategic planning, and exceptional communication skills. I'm excited to apply these skills in a new context and learn from Google's renowned engineering team.\n\nAs a guest speaker at the Northeast Lean Conference in 2022, I demonstrated my ability to communicate complex ideas and inspire others to adopt new methodologies. I'm confident that my unique perspective, combined with my passion for technology and innovation, would make me a valuable asset to Google's frontend team. I'm excited to discuss how my skills can be adapted to contribute to Google's mission to organize the world's information and make it universally accessible and useful."
+    },
+    {
+      "id": "7h1fvhn",
+      "createdAt": "2026-07-21T17:00:27.431Z",
+      "updatedAt": "2026-07-21T17:00:27.431Z",
+      "userId": "zlnxn3m",
+      "jobTitle": "safe manager",
+      "company": "TCS",
+      "content": "Dear Hiring Team,\n\nAs a PMP-certified project manager with an MBA, a legal background, and over seven years of experience delivering complex operational improvements, I am excited to apply for the SAFe Manager position at TCS. My track record of driving Lean transformations, optimizing workflows, and aligning cross-functional teams directly supports TCS's commitment to scalable, high-impact enterprise solutions.\n\nAt Atheon MDC, I led project management initiatives for an 85-person team, focusing heavily on Lean implementation and continuous improvement. By managing our multi-year Lean Training program, I reduced production lead times by 21%, cut costs by 48%, and improved overall quality by 32%. I also designed a peer-benchmarking initiative that enabled 20 change-leaders to gather and implement best practices across facilities. My expertise in Lean methodologies and team leadership led to an invitation as a guest speaker at the 2022 Northeast Lean Conference.\n\nPrior to Atheon MDC, I drove operational strategy at Seton Hospital, where I rolled out enterprise Lean training that cut costs by 32% in six months and reduced stockroom waste by 65%. Combining this practical efficiency focus with my legal and business education allows me to effectively manage governance, mitigate project risk, and scale Agile frameworks that deliver measurable business value.\n\nI am eager to bring my strategic planning expertise, Scrum proficiency, and passion for continuous delivery to help TCS drive successful SAFe implementations for its clients. Thank you for your time and consideration. I look forward to discussing how my background aligns with your team's goals.\n\nSincerely,\n\nAnna R. Smith"
+    },
+    {
+      "id": "8e41pif",
+      "createdAt": "2026-07-22T01:16:14.730Z",
+      "updatedAt": "2026-07-22T01:16:14.730Z",
+      "userId": "zlnxn3m",
+      "jobTitle": "marketing manager",
+      "company": "tcs",
+      "content": "Dear Hiring Team at TCS,\n\nWith a proven track record of driving operational excellence and revenue growth, I am eager to apply for the Marketing Manager position at TCS. My background—a blend of PMP-certified project management, an MBA, and a law degree—has equipped me with the unique ability to navigate complex business challenges while maintaining a laser focus on strategic objectives.\n\nOver the past seven years at Atheon MDC, I led diverse project teams and championed Lean methodologies to deliver measurable impact. My efforts to streamline processes resulted in a 32% increase in quality and a 48% reduction in operational costs. Beyond technical project management, I have successfully executed change management initiatives, such as the “Learn by Benchmarking” program, which fostered a culture of peer-to-peer knowledge sharing and high-level performance.\n\nMy career is defined by an ability to translate high-level strategy into tangible results. During my tenure at Seton Hospital, I reduced stockroom waste by 65% and optimized nursing workflows, yielding an 88% reduction in wasted foot traffic. These experiences, complemented by my role as a guest speaker at the 2022 Northeast Lean Conference, demonstrate my commitment to not only executing projects but also evangelizing best practices that drive long-term business development.\n\nI am particularly drawn to TCS because of your reputation for innovation and market leadership. I am confident that my analytical rigor, background in business development, and deep experience in lean project management will allow me to hit the ground running as a Marketing Manager. I look forward to the possibility of discussing how my leadership style can contribute to your team’s continued success.\n\nThank you for your time and consideration.\n\nSincerely,\n\nAnna R. Smith, PMP"
+    }
+  ],
+  "coachMessages": [
+    {
+      "id": "nhg0cmz",
+      "createdAt": "2026-07-21T05:26:54.901Z",
+      "updatedAt": "2026-07-21T05:26:54.901Z",
+      "userId": "ppwgsx5",
+      "role": "user",
+      "content": "How can I stay motivated during a long job search?"
+    },
+    {
+      "id": "5ii06hw",
+      "createdAt": "2026-07-21T05:26:54.911Z",
+      "updatedAt": "2026-07-21T05:26:54.911Z",
+      "userId": "ppwgsx5",
+      "role": "assistant",
+      "content": "I'm experiencing connectivity issues right now. Let me try my best to answer you: No AI API keys are configured in your environment. Please add GEMINI_API_KEY, GROQ_API_KEY, OPENROUTER_API_KEY, or HUGGINGFACE_API_KEY in your settings."
+    },
+    {
+      "id": "lxeg5dh",
+      "createdAt": "2026-07-21T06:39:48.666Z",
+      "updatedAt": "2026-07-21T06:39:48.666Z",
+      "userId": "ppwgsx5",
+      "role": "user",
+      "content": "Help me prepare for my upcoming interview drills."
+    },
+    {
+      "id": "390cemz",
+      "createdAt": "2026-07-21T06:39:51.070Z",
+      "updatedAt": "2026-07-21T06:39:51.070Z",
+      "userId": "ppwgsx5",
+      "role": "assistant",
+      "content": "I'd be happy to help you prepare for your interview drills. Since we don't have any resumes, skills, or saved jobs to work with yet, let's start from scratch.\n\nTo get started, can you tell me a bit about the type of role or industry you're interested in? This will help me provide more tailored guidance.\n\nIn the meantime, here are some general tips to help you prepare for your interview drills:\n\n1. **Research common interview questions**: Look up common interview questions for your desired role or industry. This will help you anticipate and prepare for the types of questions you may be asked.\n2. **Practice your story**: Think about your past experiences and skills, and practice telling stories that demonstrate your accomplishments and qualifications.\n3. **Review the job description**: If you have a job description or requirements for the role, review it carefully and think about how your skills and experiences align with the job requirements.\n4. **Prepare your materials**: Make sure you have a copy of your resume and any other materials you may need, such as references or certifications.\n\nLet's take it one step at a time. Our next step can be to:\n\n* Create a resume that highlights your skills and experiences\n* Identify some target jobs or industries to focus on\n* Practice answering common interview questions\n\nWhich of these steps sounds like a good starting point for you?"
+    },
+    {
+      "id": "loydll4",
+      "createdAt": "2026-07-21T07:07:02.630Z",
+      "updatedAt": "2026-07-21T07:07:02.630Z",
+      "userId": "ppwgsx5",
+      "role": "user",
+      "content": "Search a jobs Python developer in chennai "
+    },
+    {
+      "id": "iwphqy7",
+      "createdAt": "2026-07-21T07:07:36.042Z",
+      "updatedAt": "2026-07-21T07:07:36.042Z",
+      "userId": "ppwgsx5",
+      "role": "assistant",
+      "content": "Hey there! I’m on it. As a recruiter, I love the Chennai market—it's a massive tech hub with a fantastic mix of SaaS giants, multinational product companies, and global capability centers (GCCs). \n\nBefore we look at the specific search strategies and where to apply, I need to give you some **straight-shooting recruiter advice**. \n\nI took a look at your database and reviewed your recent **Python Technical Mock Interview**. To be completely honest with you, Kumar, your score was **10/100**. If you walked into an interview for a mid-level Python Developer role in Chennai today, the technical round would block you immediately. \n\nHiring managers at top-tier Chennai tech companies are highly selective. They don't just want high-level definitions; they will ask you to write live code, build custom decorators, write asynchronous code, and explain memory management.\n\nLet's change that. My goal is to get you fully prepared so that when we find these jobs in Chennai, you actually **land the offer**. \n\nHere is your comprehensive playbook: the **Chennai Python Job Landscape** and your **Technical Gap-Closing Plan**.\n\n---\n\n### Part 1: The Chennai Python Developer Job Market\n\nChennai has a booming tech ecosystem, particularly along **OMR (Old Mahabalipuram Road)**, **Guindy**, and **DLF IT Park (Ramapuram)**. \n\n#### 1. Target Companies in Chennai\n*   **SaaS & Product Companies (High Bar, High Pay):** Zoho (notorious for hands-on coding tests), Freshworks, Chargebee, Kissflow, Kovai.co.\n*   **Fintech & GCCs (Global Capability Centers):** PayPal, Standard Chartered (GBS), Barclays, Citi, Bank of America. They use Python heavily for backend services, data pipelines, and automation.\n*   **IT Services & Consulting:** TCS, Cognizant, Infosys, Wipro. They have massive Python requirements, often for client-facing deployment and cloud integration.\n\n#### 2. Where and How to Search\n*   **Naukri.com:** Still the king for service-based companies and GCCs in Chennai. Optimize your profile with keywords: *Python, Django/FastAPI, Asyncio, PostgreSQL, AWS*.\n*   **LinkedIn Jobs:** Best for SaaS companies (Freshworks, Chargebee) and mid-sized startups.\n*   **Instahyre / Hirist:** Excellent for product-based startups looking for pure technical talent.\n\n---\n\n### Part 2: The Recruiter's Diagnostic (Closing Your Gaps)\n\nBased on your mock interview, here are the exact areas hiring managers in Chennai will grill you on, and how you must prepare:\n\n#### Gap 1: Core Python Memory Management\n*   **What they will ask:** *\"What happens under the hood when you delete an object in Python? How does GC handle cyclic references?\"*\n*   **The Recruiter Advice:** You cannot answer with generic introductions. You must know **Reference Counting** (instant deallocation when count is 0) and the **Generational Garbage Collector** (using 3 generations to detect isolated cyclic loops).\n\n#### Gap 2: Concurrency & `asyncio`\n*   **What they will ask:** *\"We need to call 50 downstream APIs simultaneously. How do you do this without blocking the thread?\"*\n*   **The Recruiter Advice:** Product companies in Chennai (especially SaaS) handle millions of requests. You must master writing code using `asyncio` and `aiohttp` (or `httpx`). Practice using `async with` and `asyncio.gather()`.\n\n#### Gap 3: Metaprogramming & Decorators\n*   **What they will ask:** *\"Write a custom decorator that retries a database connection 3 times if it fails.\"*\n*   **The Recruiter Advice:** This is a classic \"live-coding\" question. You need to know how to write a parameterized nested function, use `functools.wraps` to preserve metadata, and handle `try/except` blocks inside the wrapper.\n\n---\n\n### Part 3: Your Step-by-Step Action Plan\n\nTo get you ready for the Chennai job market, I recommend this 3-step strategy:\n\n1.  **Draft Your Impact-Driven Resume:** Let's build a strong resume first. I can help you draft bullet points that highlight Python development, API integrations, and database optimization.\n2.  **Targeted Coding Drills:** Let's run a focused drill on just **one** of your weak areas (e.g., writing a custom Decorator or a Context Manager). I will walk you through the code step-by-step.\n3.  **The Application Push:** Once your technical confidence is up, we will target specific job openings in Chennai on LinkedIn and Naukri.\n\n**How do you want to start?** \nDo you want me to help you write a strong Python developer resume, or do you want to run a quick 10-minute coding practice session on **Python Decorators**? I'm ready when you are!"
+    },
+    {
+      "id": "odbtjk9",
+      "createdAt": "2026-07-21T10:11:17.104Z",
+      "updatedAt": "2026-07-21T10:11:17.104Z",
+      "userId": "ppwgsx5",
+      "role": "user",
+      "content": "Do I have any skills gap for my saved jobs?"
+    },
+    {
+      "id": "hd3vllc",
+      "createdAt": "2026-07-21T10:11:20.877Z",
+      "updatedAt": "2026-07-21T10:11:20.877Z",
+      "userId": "ppwgsx5",
+      "role": "assistant",
+      "content": "Since you don't have any saved jobs or skills mapped yet, we can't directly assess any skills gaps. However, I can guide you through a process to identify potential skills gaps once you've saved some jobs or mapped your skills.\n\nHere's a step-by-step approach:\n\n1. **Save relevant jobs**: Start by saving jobs that you're interested in or that match your career goals. This will help us understand the requirements and skills needed for those roles.\n2. **Map your skills**: Create a list of your current skills, including technical, soft, and language skills. Be as detailed as possible, and try to categorize them (e.g., programming languages, frameworks, databases, etc.).\n3. **Compare job requirements with your skills**: Once you have saved jobs and mapped your skills, we can compare the requirements of each job with your current skills. This will help identify any gaps or areas where you need improvement.\n4. **Identify skills gaps**: By analyzing the job requirements and your current skills, we can identify areas where you need to acquire new skills or improve existing ones.\n\nTo get started, let's save some jobs and map your skills. Please provide me with the following information:\n\n* Job titles or industries you're interested in\n* Any specific skills you're aware of (e.g., programming languages, frameworks, etc.)\n\nOnce we have this information, we can begin the process of identifying potential skills gaps and creating a plan to address them."
+    },
+    {
+      "id": "7xj59rc",
+      "createdAt": "2026-07-21T14:03:49.946Z",
+      "updatedAt": "2026-07-21T14:03:49.946Z",
+      "userId": "zlnxn3m",
+      "role": "user",
+      "content": "Help me prepare for my upcoming interview drills."
+    },
+    {
+      "id": "d7onc82",
+      "createdAt": "2026-07-21T14:03:54.077Z",
+      "updatedAt": "2026-07-21T14:03:54.077Z",
+      "userId": "zlnxn3m",
+      "role": "assistant",
+      "content": "I'd be happy to help you prepare for your interview drills. Since we're starting from scratch, let's begin with the basics.\n\n**Immediate Next Steps:**\n\n1. **Update your resume**: We don't have any resumes created yet, so let's start by crafting a strong, tailored resume that highlights your skills and experiences. This will help us identify your strengths and weaknesses, which we can then focus on during the interview preparation.\n2. **Identify your target skills**: We need to map out your acquired and target skills to understand your areas of expertise and where you need improvement. This will help us prepare for common interview questions and topics related to your desired role.\n3. **Save relevant jobs**: Let's save some jobs that align with your career goals and aspirations. This will give us a clear understanding of the job requirements, responsibilities, and expectations, which we can then use to prepare for the interview drills.\n\n**Actionable Advice:**\n\n* Take some time to reflect on your past experiences, skills, and education. Think about how they can be applied to your desired role.\n* Research common interview questions and topics related to your target industry or job function.\n* Practice answering behavioral questions using the STAR method ( Situation, Task, Action, Result).\n\n**Recommendation:**\n\nLet's schedule a series of mock interview sessions to help you prepare for your upcoming interview drills. During these sessions, we can practice answering common interview questions, work on your responses, and provide feedback on areas for improvement.\n\nBefore we proceed, can you please tell me what type of role or industry you're interested in pursuing? This will help me provide more tailored guidance and recommendations."
+    },
+    {
+      "id": "t443mcq",
+      "createdAt": "2026-07-21T16:44:34.625Z",
+      "updatedAt": "2026-07-21T16:44:34.625Z",
+      "userId": "zlnxn3m",
+      "role": "user",
+      "content": "Help me prepare a strategy for my upcoming technical interview prep."
+    },
+    {
+      "id": "gw8dc75",
+      "createdAt": "2026-07-21T16:44:38.956Z",
+      "updatedAt": "2026-07-21T16:44:38.956Z",
+      "userId": "zlnxn3m",
+      "role": "assistant",
+      "content": "I'd be happy to help you prepare a strategy for your upcoming technical interview prep.\n\n**Current Status:**\n\n* We don't have any resumes created yet, which makes it challenging to identify your strengths and weaknesses.\n* We don't have any skills mapped yet, which makes it difficult to understand your areas of expertise.\n* We have a cover letter generated for a frontend role at Google, which suggests that you may be interested in pursuing a career in frontend development.\n\n**Technical Interview Prep Strategy:**\n\n1. **Resume Building**: Let's create a strong, tailored resume that highlights your technical skills and experiences. We can use this as a foundation to identify your strengths and weaknesses.\n2. **Skills Mapping**: We need to map out your acquired and target skills to understand your areas of expertise and where you need improvement. This will help us prepare for common technical interview questions and topics related to your desired role.\n3. **Practice Coding**: Let's practice coding using online platforms like LeetCode, HackerRank, or CodeWars. This will help you improve your problem-solving skills and become more familiar with common coding interview questions.\n4. **System Design**: We should prepare for system design interviews by studying system design patterns, data structures, and algorithms. This will help you design and implement scalable systems.\n5. **Behavioral Questions**: We'll practice answering behavioral questions using the STAR method ( Situation, Task, Action, Result). This will help you prepare for non-technical interview questions and showcase your soft skills.\n6. **Mock Interviews**: Let's schedule a series of mock technical interviews to help you prepare for the real thing. During these sessions, we can practice answering common interview questions, work on your responses, and provide feedback on areas for improvement.\n\n**Actionable Advice:**\n\n* Start by reviewing common technical interview questions and topics related to your desired role.\n* Practice coding regularly using online platforms or by working on personal projects.\n* Study system design patterns, data structures, and algorithms to improve your system design skills.\n* Review your cover letter and think about how you can tailor your resume and skills to match the requirements of your desired role.\n\n**Recommendation:**\n\nLet's start by creating a strong, tailored resume and mapping out your acquired and target skills. We can then use this information to prepare for common technical interview questions and topics related to your desired role.\n\nBefore we proceed, can you please tell me what type of technical role or industry you're interested in pursuing? This will help me provide more tailored guidance and recommendations.\n\nAdditionally, I have a few questions to help us get started:\n\n* What programming languages are you proficient in?\n* Do you have any experience with data structures and algorithms?\n* Have you worked on any personal projects or contributed to open-source projects?"
+    },
+    {
+      "id": "g3fnj3j",
+      "createdAt": "2026-07-21T16:44:51.285Z",
+      "updatedAt": "2026-07-21T16:44:51.285Z",
+      "userId": "zlnxn3m",
+      "role": "user",
+      "content": "Analyze my skills progress database and recommend what I should learn next."
+    },
+    {
+      "id": "kbwc5nz",
+      "createdAt": "2026-07-21T16:44:55.025Z",
+      "updatedAt": "2026-07-21T16:44:55.025Z",
+      "userId": "zlnxn3m",
+      "role": "assistant",
+      "content": "**Current Skills Progress Database Analysis:**\n\nUnfortunately, your skills progress database is empty, as we don't have any skills mapped yet. This makes it challenging to analyze your current skills and provide recommendations on what to learn next.\n\n**Initial Recommendations:**\n\nConsidering your interest in a frontend role at Google (as indicated by the generated cover letter), I recommend starting with the fundamentals of frontend development. Here are some skills to consider learning:\n\n1. **HTML/CSS**: Learn the basics of HTML, CSS, and how to build responsive web applications.\n2. **JavaScript**: Familiarize yourself with JavaScript, including its syntax, data types, functions, and object-oriented programming concepts.\n3. **Frontend Frameworks**: Explore popular frontend frameworks like React, Angular, or Vue.js.\n4. **CSS Preprocessors**: Learn about CSS preprocessors like Sass or Less.\n5. **Version Control**: Understand the basics of version control using Git.\n\n**Long-term Recommendations:**\n\nAs you progress in your frontend development journey, consider learning about:\n\n1. **State Management**: Learn about state management libraries like Redux or MobX.\n2. **Routing**: Understand how to implement client-side routing using libraries like React Router.\n3. **Web Performance Optimization**: Learn techniques to optimize the performance of your web applications.\n4. **Accessibility**: Study web accessibility guidelines and best practices.\n5. **Testing**: Familiarize yourself with testing frameworks like Jest or Cypress.\n\n**Actionable Advice:**\n\n* Start by learning the basics of HTML, CSS, and JavaScript.\n* Build small projects to practice your skills and reinforce your learning.\n* Explore online resources like tutorials, videos, and blogs to stay up-to-date with the latest developments in frontend development.\n* Join online communities, forums, or social media groups to connect with other developers and learn from their experiences.\n\n**Recommendation:**\n\nLet's create a personalized learning plan tailored to your goals and interests. To do this, I need to know more about your current level of expertise and what you hope to achieve in the short-term and long-term.\n\nPlease answer the following questions:\n\n* What is your current level of experience in frontend development (beginner, intermediate, advanced)?\n* What specific areas of frontend development interest you the most (e.g., responsive design, JavaScript, CSS preprocessors)?\n* What are your short-term and long-term career goals in frontend development?"
+    },
+    {
+      "id": "xum0oyu",
+      "createdAt": "2026-07-21T16:45:15.286Z",
+      "updatedAt": "2026-07-21T16:45:15.286Z",
+      "userId": "zlnxn3m",
+      "role": "user",
+      "content": "i am become ml engineer how"
+    },
+    {
+      "id": "acsjjyg",
+      "createdAt": "2026-07-21T16:45:19.519Z",
+      "updatedAt": "2026-07-21T16:45:19.519Z",
+      "userId": "zlnxn3m",
+      "role": "assistant",
+      "content": "Becoming a Machine Learning (ML) Engineer is an exciting career goal. Here's a step-by-step guide to help you achieve this:\n\n**Prerequisites:**\n\n1. **Mathematics and Statistics**: Familiarize yourself with mathematical concepts like linear algebra, calculus, probability, and statistics.\n2. **Programming Skills**: Proficiency in programming languages like Python, R, or Julia is essential.\n3. **Data Structures and Algorithms**: Understand data structures like arrays, linked lists, stacks, queues, trees, and graphs, as well as algorithms like sorting, searching, and graph traversal.\n\n**Step 1: Build a Strong Foundation in Machine Learning (3-6 months)**\n\n1. **Learn the Basics**: Study the fundamentals of machine learning, including supervised and unsupervised learning, regression, classification, clustering, and neural networks.\n2. **Popular Libraries and Frameworks**: Familiarize yourself with popular ML libraries like scikit-learn, TensorFlow, PyTorch, or Keras.\n3. **Online Courses**: Take online courses like Andrew Ng's Machine Learning course, Stanford University's Machine Learning course, or Machine Learning with Python on Coursera.\n\n**Step 2: Gain Practical Experience (6-12 months)**\n\n1. **Kaggle Competitions**: Participate in Kaggle competitions to practice your skills and learn from others.\n2. **Personal Projects**: Work on personal projects, such as image classification, natural language processing, or recommender systems.\n3. **Open-Source Contributions**: Contribute to open-source ML projects on GitHub or GitLab.\n\n**Step 3: Dive Deeper into Specialized Areas (6-12 months)**\n\n1. **Deep Learning**: Study deep learning techniques like convolutional neural networks (CNNs), recurrent neural networks (RNNs), and long short-term memory (LSTM) networks.\n2. **Natural Language Processing (NLP)**: Explore NLP techniques like text preprocessing, sentiment analysis, and language modeling.\n3. **Computer Vision**: Learn about computer vision techniques like object detection, segmentation, and image generation.\n\n**Step 4: Learn Deployment and Engineering Skills (3-6 months)**\n\n1. **Containerization**: Learn about containerization using Docker and Kubernetes.\n2. **Cloud Platforms**: Familiarize yourself with cloud platforms like AWS, Azure, or Google Cloud.\n3. **Model Deployment**: Learn about model deployment using TensorFlow Serving, PyTorch Serving, or AWS SageMaker.\n\n**Step 5: Stay Up-to-Date and Network (Ongoing)**\n\n1. **Attend Conferences**: Attend conferences like NIPS, IJCAI, or ICML to stay updated on the latest research and trends.\n2. **Read Research Papers**: Regularly read research papers on arXiv, ResearchGate, or Academia.edu.\n3. **Join Online Communities**: Participate in online communities like Kaggle, Reddit (r/MachineLearning), or GitHub to network with other ML enthusiasts and professionals.\n\n**Actionable Advice:**\n\n* Start by building a strong foundation in machine learning and gain practical experience through projects and competitions.\n* Stay up-to-date with the latest research and trends by attending conferences, reading research papers, and participating in online communities.\n* Network with other ML enthusiasts and professionals to learn from their experiences and gain insights into the industry.\n\n**Recommendation:**\n\nLet's create a personalized learning plan tailored to your goals and interests. To do this, I need to know more about your current level of expertise and what you hope to achieve in the short-term and long-term.\n\nPlease answer the following questions:\n\n* What is your current level of experience in machine learning (beginner, intermediate, advanced)?\n* What specific areas of machine learning interest you the most (e.g., computer vision, NLP, deep learning)?\n* What are your short-term and long-term career goals in machine learning engineering?"
+    },
+    {
+      "id": "ib5a2rh",
+      "createdAt": "2026-07-21T16:54:18.672Z",
+      "updatedAt": "2026-07-21T16:54:18.672Z",
+      "userId": "zlnxn3m",
+      "role": "user",
+      "content": "Do I have any skills gap for my saved jobs?"
+    },
+    {
+      "id": "bczkibw",
+      "createdAt": "2026-07-21T16:54:25.768Z",
+      "updatedAt": "2026-07-21T16:54:25.768Z",
+      "userId": "zlnxn3m",
+      "role": "assistant",
+      "content": "Right now, **you don't have any saved jobs in your database**, and we haven't mapped your current skills yet. Because of that, I can't perform an automated gap analysis between your profile and target job postings just yet.\n\nTo get a precise, automated skill-gap analysis, here are our **immediate next steps**:\n\n1. **Save Target Jobs:** Add 2 to 3 Machine Learning Engineer job postings to your saved jobs list.\n2. **Add Your Current Skills:** List out the languages, frameworks, math concepts, or tools you already know.\n\n---\n\n### Typical ML Engineer Skills Gap (Industry Benchmark)\nSince your goal is to become an **ML Engineer**, here is a look at what target job postings typically require versus where most candidates have gaps:\n\n| Core Skill Category | What ML Jobs Require | Common Skill Gap Areas |\n| :--- | :--- | :--- |\n| **Programming & Data** | Python, SQL, Pandas, NumPy | Production-grade OOP Python, writing optimized SQL queries |\n| **ML Frameworks** | Scikit-Learn, PyTorch or TensorFlow | Building models from scratch vs. just calling API libraries |\n| **MLOps & Deployment** | Docker, FastAPI, MLflow, AWS/GCP, CI/CD | **#1 Biggest Gap:** Packaging ML models into REST APIs & deploying them |\n| **CS Fundamentals** | Data Structures & Algorithms | System design for data/ML pipelines, algorithmic problem-solving |\n\n---\n\n### What to do right now:\nTell me **which programming languages or tools you currently know best** (e.g., Python, C++, SQL, Git), or save an ML Engineer job posting you're looking at, and I will instantly run a gap analysis for you!"
+    },
+    {
+      "id": "q85a7k1",
+      "createdAt": "2026-07-21T16:54:42.753Z",
+      "updatedAt": "2026-07-21T16:54:42.753Z",
+      "userId": "zlnxn3m",
+      "role": "user",
+      "content": "Draft a cold outreach LinkedIn message"
+    },
+    {
+      "id": "v25wp0e",
+      "createdAt": "2026-07-21T16:54:51.701Z",
+      "updatedAt": "2026-07-21T16:54:51.701Z",
+      "userId": "zlnxn3m",
+      "role": "assistant",
+      "content": "Here are three high-converting cold outreach templates tailored for LinkedIn. Choose the one that matches your goal:\n\n---\n\n### Option 1: Connection Request Note (Under 300 Characters)\n*Use this when sending a connection invite to a **Machine Learning Engineer** you want to connect with.*\n\n> **Hi [Name],**  \n> I came across your profile while researching ML team members at [Company]. I’m currently building my skills in ML engineering (focusing on Python & [PyTorch/MLOps]) and love what your team is doing with [specific product/feature]. Would love to connect!  \n> **Best, [Your Name]**\n\n---\n\n### Option 2: Informational Interview / Advice Request (InMail / Message)\n*Use this after they accept your invite, or as a direct message to ask for 15 minutes of advice.*\n\n> **Subject:** Quick question from an aspiring ML Engineer  \n> \n> **Hi [Name],**  \n> \n> Thanks for connecting! I’ve been following your work at [Company] and really admire your background in [specific area, e.g., computer vision / recommendation systems].  \n> \n> I’m currently transitioning into Machine Learning Engineering and actively building out projects in [mention 1-2 tools, e.g., PyTorch, FastAPI, Docker].  \n> \n> If you have 10–15 minutes sometime in the coming weeks, I’d love to ask a couple of quick questions about how you navigated your path into ML at [Company]. No pressure at all, but I’d really appreciate your insights!  \n> \n> **Best regards,**  \n> **[Your Name]**  \n> [Link to GitHub / Portfolio, if available]\n\n---\n\n### Option 3: Reaching Out to a Recruiter / Hiring Manager\n*Use this when reaching out about an active Machine Learning Engineer job posting.*\n\n> **Hi [Name],**  \n> \n> I saw that [Company] is hiring for a [Job Title, e.g., Junior ML Engineer / ML Engineer] role.  \n> \n> I’ve been focusing heavily on hands-on ML implementation, with recent projects building [brief project description, e.g., end-to-end sentiment classification deployed with Docker/FastAPI]. Given [Company]’s focus on [company focus/product], I thought my technical background would align well.  \n> \n> I’ve applied online, but wanted to reach out directly to express my strong interest. I’d love to connect and share more about my background if you're open to it.  \n> \n> **Best,**  \n> **[Your Name]**\n\n---\n\n### Key Tips for Success:\n1. **Personalize the Bracketed Text `[ ]`**: Mention a real project, company feature, or tool so it doesn't look like a generic copy-paste.\n2. **Keep it Low-Pressure**: Focus on asking for **advice/insights** rather than asking for a job directly.\n3. **Follow Up**: If they accept your connection request but don't reply, send a polite follow-up 4–5 days later.\n\n**Next Step:** Pick one person or company you'd like to target today, customize one of these templates, and let me know if you want me to review it before you send!"
+    },
+    {
+      "id": "i4akx9r",
+      "createdAt": "2026-07-22T01:09:48.965Z",
+      "updatedAt": "2026-07-22T01:09:48.965Z",
+      "userId": "zlnxn3m",
+      "role": "user",
+      "content": "Analyze my active career milestones."
+    },
+    {
+      "id": "1wfjqxi",
+      "createdAt": "2026-07-22T01:09:52.585Z",
+      "updatedAt": "2026-07-22T01:09:52.585Z",
+      "userId": "zlnxn3m",
+      "role": "assistant",
+      "content": "To analyze your active career milestones, I’ve reviewed the current state of your workspace database. As of now, **you are in the \"Foundation Building\" phase.**\n\nSince your profile currently has no resumes, no mapped skills, and no saved jobs, your \"milestones\" are currently entirely focused on **transitioning and preparation.**\n\nHere is a breakdown of your current status and the milestones you need to clear to become a competitive Machine Learning Engineer:\n\n### 1. Current Milestone Status (Diagnostic)\n*   **Resume Status:** ❌ **Not Started.** (Critical Gap: You cannot apply for jobs without a baseline document).\n*   **Skill Mapping:** ❌ **Not Started.** (Critical Gap: We don't have a baseline to measure your growth against industry benchmarks).\n*   **Mock Interview Data:** ✅ **In Progress.** You have completed 8 mock sessions (6 Technical, 2 HR). \n    *   *Analysis:* You are clearly taking the right action by \"drilling.\" However, without a structured resume or mapped skills, these drills are likely \"blind.\" We need to focus these sessions on specific ML technical topics (e.g., probability, system design, or coding).\n\n---\n\n### 2. Immediate Milestone Goals (Next 30 Days)\n\nTo move from \"Preparing\" to \"Market-Ready,\" you need to complete these milestones in order:\n\n*   **Milestone 1: The \"Technical Foundation\" Mapping (By End of Week)**\n    *   **Action:** List your top 3 programming languages and top 3 ML frameworks. We will use this to identify your \"strength profile.\"\n*   **Milestone 2: The \"Application Core\" (Resume)**\n    *   **Action:** Draft your first resume. We will focus on highlighting your technical projects. \n    *   *Tip:* Even if you have little work experience, we will pivot your \"mock interview\" projects into your experience section.\n*   **Milestone 3: Targeted Search Strategy**\n    *   **Action:** Save 3 ML Engineering jobs. We will then perform a **Gap Analysis** on these specific descriptions so your future learning is not \"random\" but \"targeted.\"\n\n---\n\n### 3. Your \"Technical Drill\" Feedback Analysis\nYou have completed 8 mock interviews, but the feedback summary is currently \"Awaiting evaluation.\" \n\n**Constructive Strategy:**\n*   Stop performing general technical mocks.\n*   **Next Step:** When you schedule your next Technical Mock Interview, specify the domain: **\"I want to do a mock interview specifically on ML Model Deployment\"** or **\"Data Structures for ML.\"** This will provide much more actionable feedback.\n\n---\n\n### 4. Direct Question for You:\nTo help me generate your first milestone report, **please provide one of the following today:**\n1. **The link or text of one job posting** you find interesting. (I will run the gap analysis immediately).\n2. **A list of 3 projects** you have worked on (or want to work on) so we can start building your resume.\n\n**Which one would you like to tackle first?**"
+    },
+    {
+      "id": "5xlnwas",
+      "createdAt": "2026-07-22T01:17:14.536Z",
+      "updatedAt": "2026-07-22T01:17:14.536Z",
+      "userId": "zlnxn3m",
+      "role": "user",
+      "content": "Write a professional, highly engaging LinkedIn cold outreach message to a Hiring Manager for a role matching my background. Keep it under 150 words."
+    },
+    {
+      "id": "4k7ybel",
+      "createdAt": "2026-07-22T01:17:17.093Z",
+      "updatedAt": "2026-07-22T01:17:17.093Z",
+      "userId": "zlnxn3m",
+      "role": "assistant",
+      "content": "To provide the most effective message, I have drafted this for a **Machine Learning Engineer** role. \n\n**Pro-tip:** Since you mentioned interest in ML and frontend (via your Google cover letter), this template assumes you are positioning yourself as a versatile engineer capable of taking ML models from research to production.\n\n***\n\n**Subject:** Passionate ML Engineer – [Your Name] – Interest in [Company Name]\n\nHi [Hiring Manager Name],\n\nI’ve been following [Company Name]’s work in [mention specific product or area, e.g., real-time recommendation engines], and I’m incredibly impressed by your approach to [specific technical challenge]. \n\nI am a Machine Learning Engineer with a focus on [Your Core Skill, e.g., PyTorch and MLOps]. I’ve spent my recent time building [mention one specific project, e.g., an end-to-end sentiment classification model deployed via FastAPI], and I’m eager to bring that same technical rigor to your team.\n\nI’ve just submitted my application for the [Job Title] role. I’d love the opportunity to connect and briefly discuss how my background in building scalable ML pipelines can support your team’s current goals. \n\nBest regards,\n\n[Your Name]\n[Link to your GitHub or Portfolio]\n\n***\n\n### Why this works:\n*   **The \"Hook\":** It mentions a specific product/challenge at their company, proving you aren't just spamming companies.\n*   **The \"Proof\":** By mentioning one specific project (even a side project), you move from \"aspiring\" to \"doing.\"\n*   **The \"Call to Action\":** It’s low-pressure, professional, and focuses on adding value to *their* team.\n\n**Do you have a specific company in mind?** If you paste the company name and the specific role, I can sharpen the \"Hook\" even further."
+    },
+    {
+      "id": "inu1juh",
+      "createdAt": "2026-07-22T01:17:40.268Z",
+      "updatedAt": "2026-07-22T01:17:40.268Z",
+      "userId": "zlnxn3m",
+      "role": "user",
+      "content": "Create a comprehensive 30-60-90 day success plan template for a new role matching my background."
+    },
+    {
+      "id": "648b89n",
+      "createdAt": "2026-07-22T01:17:44.021Z",
+      "updatedAt": "2026-07-22T01:17:44.021Z",
+      "userId": "zlnxn3m",
+      "role": "assistant",
+      "content": "Since you are aiming for an **ML Engineering** role, a successful 30-60-90 day plan needs to demonstrate that you can move fast, understand the technical infrastructure, and start delivering value quickly. \n\nHere is your template, structured from a Hiring Manager’s perspective.\n\n***\n\n### 30-60-90 Day Success Plan: ML Engineer\n\n#### **Phase 1: The Learning Phase (Days 1–30)**\n*Goal: Understand the environment, the data, and the current codebase.*\n*   **Technical Deep-Dive:** Complete onboarding for the local dev environment, CI/CD pipelines, and access to internal data lakes/warehouses.\n*   **Domain Knowledge:** Review existing model documentation, experiment tracking (MLflow/Weights & Biases), and the business logic behind the current models.\n*   **Codebase Familiarity:** Fix at least 2–3 \"good first issues\" or minor bugs to understand the production deployment process.\n*   **Relationship Building:** Schedule 1:1s with key stakeholders—Data Scientists, DevOps/SREs, and Product Managers to understand their pain points with the current models.\n\n#### **Phase 2: The Contribution Phase (Days 31–60)**\n*Goal: Start shipping features and improving model performance.*\n*   **ML Pipeline Optimization:** Identify one bottleneck in the data ingestion or model training pipeline and propose/implement a fix.\n*   **Model Monitoring:** Build or enhance a dashboard to track model drift or performance metrics in production.\n*   **Ownership:** Take full ownership of one sub-component or microservice. Begin conducting code reviews for team members.\n*   **Alignment:** Present a summary of your initial observations on model performance and potential areas for scaling to the engineering lead.\n\n#### **Phase 3: The Impact Phase (Days 61–90)**\n*Goal: Autonomy and driving long-term technical strategy.*\n*   **Innovation:** Lead a small project—perhaps testing a new architecture or optimizing a latency-heavy model—that improves a core KPI (e.g., model inference speed, prediction accuracy).\n*   **Documentation:** Contribute to the engineering \"knowledge base\" or \"runbooks\" to ensure team scalability.\n*   **Strategic Planning:** Collaborate with the team on the roadmap for the next quarter, identifying future tech debt or performance scaling needs.\n*   **End-of-Quarter Review:** Present your impact (metrics moved, bugs fixed, infrastructure improvements) to the manager.\n\n***\n\n### Pro-Tips for the Interview:\n1.  **Bring this to the Interview:** When asked, \"Do you have any questions for us?\", use this plan as a talking point. *“I’ve put together a rough 30-60-90 day plan for how I would approach the onboarding in this role. Would you be open to hearing it?”* This shows you are a high-agency, strategic thinker.\n2.  **Make it specific:** In the interview, ask questions like, *\"What is the biggest technical bottleneck currently preventing the team from deploying models faster?\"* Then, slot that exact answer into your \"Day 31–60\" section.\n\n**Would you like me to help you fill this out with specific technical tools (e.g., PyTorch, AWS SageMaker, Docker) once we pick a specific job target?**"
+    },
+    {
+      "id": "6uqmse5",
+      "createdAt": "2026-07-24T17:39:57.634Z",
+      "updatedAt": "2026-07-24T17:39:57.634Z",
+      "userId": "kfiixcb",
+      "role": "user",
+      "content": "Do I have any skills gap for my saved jobs?"
+    },
+    {
+      "id": "36j4fvn",
+      "createdAt": "2026-07-24T17:40:01.978Z",
+      "updatedAt": "2026-07-24T17:40:01.978Z",
+      "userId": "kfiixcb",
+      "role": "assistant",
+      "content": "Right now, your profile is a blank canvas! Because you haven't saved any jobs or listed your current skills yet, I can't run a skill gap analysis for you just yet.\n\nHere is how we can fix that immediately so I can give you a personalized breakdown:\n\n### **Next Steps to Get Your Analysis:**\n\n1. **Add Your Target Jobs:** \n   * Save a few job descriptions in your profile, or simply reply here with 2–3 job titles (or paste the text of job postings you're eyeing).\n\n2. **Share Your Current Background:**\n   * Add your top technical and soft skills to your profile, or paste your raw resume text/work history right into our chat.\n\n---\n\n### **What I'll Do Once You Share Them:**\nAs soon as we have those details, I will:\n* **Run a side-by-side gap analysis** comparing your background against real-world job requirements.\n* **Identify \"Must-Have\" vs. \"Nice-to-Have\" skills** you might be missing.\n* **Give you a quick action plan** to bridge those gaps (e.g., framing transferrable skills, prioritizing key keywords, or highlighting relevant projects).\n\nWhenever you're ready, drop in a job title or paste your resume/skills below and let's get to work!"
+    },
+    {
+      "id": "rkj4a98",
+      "createdAt": "2026-07-24T17:49:31.740Z",
+      "updatedAt": "2026-07-24T17:49:31.740Z",
+      "userId": "kfiixcb",
+      "role": "user",
+      "content": "whats the ats score of my resume "
+    },
+    {
+      "id": "kr9yumm",
+      "createdAt": "2026-07-24T17:49:36.293Z",
+      "updatedAt": "2026-07-24T17:49:36.293Z",
+      "userId": "kfiixcb",
+      "role": "assistant",
+      "content": "I don't have a resume on file for you in your workspace profile yet! \n\nBecause ATS (Applicant Tracking System) compatibility depends heavily on both **formatting** and **keyword alignment against a specific job description**, we can evaluate your resume the moment you share it with me.\n\n---\n\n### **How to Get Your Resume Evaluated Right Now:**\n\n1. **Paste Your Resume:** Copy and paste the text of your current resume right into our chat.\n2. *(Optional)* **Share a Target Job:** If you have a specific job posting or title in mind, paste that as well so I can check your keyword match rate.\n\n---\n\n### **How I Will Score & Optimize Your Resume:**\n\nOnce you paste it, I will run a complete ATS check evaluating:\n\n* **Format & Readability:** Ensuring simple headings, standard fonts, and ATS-friendly layouts (no hidden tables, text boxes, or complex graphics).\n* **Keyword Density:** Matching hard and soft skills directly from industry standards or your target role.\n* **Impact & Metrics:** Checking if your bullet points use strong action verbs and quantifiable results (e.g., numbers, percentages, scale).\n* **Section Structure:** Verifying clear contact info, work history syntax (Title, Company, Dates), and skills sections.\n\n**Paste your resume below whenever you're ready, and let's get your baseline score!**"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "title": "Senior React Engineer",
+      "company": "InnovateTech Solutions",
+      "location": "San Francisco, CA (Hybrid)",
+      "description": "We are looking for a Senior React Engineer experienced in modern state management, Tailwind CSS, Next.js, and TypeScript. You will lead development on our AI analytics dashboards, optimize performance, and mentor junior devs.",
+      "url": "https://example.com/jobs/react-engineer",
+      "postedAt": "2026-07-20T05:20:06.977Z"
+    },
+    {
+      "id": "job-2",
+      "title": "Full Stack Developer",
+      "company": "CloudCore Systems",
+      "location": "Remote (US/Canada)",
+      "description": "Seeking a versatile Full Stack Developer skilled in Node.js, Next.js/React, and relational databases. Experience with Docker, CI/CD pipelines, and cloud hosting (GCP/AWS) is highly desired. Will contribute to core user APIs.",
+      "url": "https://example.com/jobs/fullstack-dev",
+      "postedAt": "2026-07-18T05:20:06.977Z"
+    },
+    {
+      "id": "job-3",
+      "title": "Product Designer (UX/UI)",
+      "company": "CreativeFlow Studio",
+      "location": "New York, NY",
+      "description": "CreativeFlow is looking for a UI/UX designer who loves typography, visual systems, and clean workflows. You will design web apps and interactive visualizer tools, conducting user research and producing high-fidelity Figma prototypes.",
+      "url": "https://example.com/jobs/designer",
+      "postedAt": "2026-07-16T05:20:06.977Z"
+    },
+    {
+      "id": "job-4",
+      "title": "AI Support Integration Specialist",
+      "company": "FutureScale AI",
+      "location": "Austin, TX (On-site)",
+      "description": "Join our fast-growing AI integrations team. Responsibilities include deploying large language models, setting up RESTful API proxy servers, implementing multi-turn chat agents, and building resume analysis pipelines.",
+      "url": "https://example.com/jobs/ai-specialist",
+      "postedAt": "2026-07-14T05:20:06.977Z"
+    },
+    {
+      "id": "9x7jupm",
+      "createdAt": "2026-07-21T07:01:04.550Z",
+      "updatedAt": "2026-07-21T07:01:04.550Z",
+      "title": "Full stack Developer",
+      "company": "Infosys",
+      "location": "Mumbai",
+      "description": "We are looking for Full stack Developer",
+      "url": "www.google.com",
+      "postedAt": "2026-07-21T07:01:04.550Z"
+    }
+  ],
+  "savedJobs": [],
+  "skillProgress": [],
+  "mockInterviews": [
+    {
+      "id": "yozln96",
+      "createdAt": "2026-07-21T06:40:53.169Z",
+      "updatedAt": "2026-07-21T06:44:33.870Z",
+      "userId": "ppwgsx5",
+      "type": "technical",
+      "questions": [
+        "Explain how Python's memory management works. Specifically, describe the difference between reference counting and generational garbage collection, and explain how reference cycles are detected and resolved.",
+        "You need to fetch data from 50 different API endpoints concurrently. Write a Python code snippet using `asyncio` and an asynchronous HTTP client to perform these requests efficiently, including error handling for timeouts.",
+        "What are Python decorators? Write a custom decorator named `@retry_on_failure(limit=3)` that wraps a function, logs its execution time, and retries the function up to a specified limit if it raises a `ConnectionError`.",
+        "Explain the difference between a list comprehension and a generator expression in Python in terms of memory efficiency and evaluation strategy. In what practical scenarios would you choose one over the other?",
+        "How does the Context Manager protocol work in Python (the `with` statement)? Write a custom class-based context manager (using `__enter__` and `__exit__`) that rolls back a database transaction if an exception occurs, or commits it if the block exits successfully."
+      ],
+      "answers": [
+        "My name is Kumar Raj.",
+        "Python decorates our function that modify or extend the behavior of other function or method without permanently changing their core code.",
+        "Python decorates our function that modify or extend the behavior of other function or method without permanently changing their core code",
+        "bhuv",
+        "jasss Database transaction if an exception occurs, more convincing if the block exits successfully."
+      ],
+      "feedback": "{\n  \"score\": 10,\n  \"overallSummary\": \"The candidate performed very poorly on this Python mock assessment. Several questions were either unanswered, answered with gibberish, or met with irrelevant responses (such as introducing oneself instead of explaining memory management). For the questions that were attempted, the candidate only managed a high-level, incomplete conceptual definition of decorators without writing any of the requested code. To improve, the candidate must thoroughly study Python core mechanisms (memory, concurrency, decorators, generator expressions, and context managers) and practice writing concrete code solutions under interview constraints.\",\n  \"qna\": [\n    {\n      \"question\": \"Explain how Python's memory management works. Specifically, describe the difference between reference counting and generational garbage collection, and explain how reference cycles are detected and resolved.\",\n      \"answer\": \"My name is Kumar Raj.\",\n      \"rating\": 1,\n      \"correctness\": \"incorrect\",\n      \"correctnessExplanation\": \"The candidate provided their name instead of answering the technical question about Python's memory management mechanisms.\",\n      \"strengths\": \"None. The answer was completely off-topic.\",\n      \"weaknesses\": \"Missed all elements of the question, including the explanation of reference counting, generational garbage collection (generations 0, 1, and 2), and how reference cycles are detected using heuristics/trial decrements via the 'gc' module.\",\n      \"sampleAnswer\": \"Python's memory management uses a dual system of Reference Counting and Generational Garbage Collection. 1. Reference Counting: Every Python object has a reference count. When an object is referenced, its count increases; when a reference is removed, it decreases. If the count hits zero, the memory is instantly freed. 2. Generational Garbage Collection: Reference counting alone cannot handle reference cycles (e.g., Object A references Object B, and Object B references Object A, preventing either from reaching zero reference count). The GC tracks objects in three generations (0, 1, and 2). Younger generations are collected more frequently. 3. Cycle Detection: The GC periodically executes an algorithm that finds isolated, unreachable cycles by copying object reference counts, decrementing them internally within a tracked group, and flagging objects with net zero external references as garbage.\"\n    },\n    {\n      \"question\": \"You need to fetch data from 50 different API endpoints concurrently. Write a Python code snippet using `asyncio` and an asynchronous HTTP client to perform these requests efficiently, including error handling for timeouts.\",\n      \"answer\": \"Python decorates our function that modify or extend the behavior of other function or method without permanently changing their core code.\",\n      \"rating\": 1,\n      \"correctness\": \"incorrect\",\n      \"correctnessExplanation\": \"The candidate answered with a definition of decorators instead of writing an asynchronous API fetcher using asyncio.\",\n      \"strengths\": \"None. The answer is completely irrelevant to asynchronous concurrency.\",\n      \"weaknesses\": \"Completely failed to demonstrate knowledge of concurrency, asyncio, event loops, context managers for HTTP sessions, or timeout error handling.\",\n      \"sampleAnswer\": \"```python\\nimport asyncio\\nimport aiohttp\\n\\nasync def fetch_endpoint(session, url, timeout=5):\\n    try:\\n        async with session.get(url, timeout=timeout) as response:\\n            return await response.json()\\n    except asyncio.TimeoutError:\\n        print(f\\\"Timeout error fetching {url}\\\")\\n        return None\\n    except Exception as e:\\n        print(f\\\"Error fetching {url}: {e}\\\")\\n        return None\\n\\nasync def fetch_all(urls):\\n    async with aiohttp.ClientSession() as session:\\n        tasks = [fetch_endpoint(session, url) for url in urls]\\n        return await asyncio.gather(*tasks, return_exceptions=True)\\n```\"\n    },\n    {\n      \"question\": \"What are Python decorators? Write a custom decorator named `@retry_on_failure(limit=3)` that wraps a function, logs its execution time, and retries the function up to a specified limit if it raises a `ConnectionError`.\",\n      \"answer\": \"Python decorates our function that modify or extend the behavior of other function or method without permanently changing their core code\",\n      \"rating\": 2,\n      \"correctness\": \"partially_correct\",\n      \"correctnessExplanation\": \"The candidate provides a simple conceptual description of what a decorator does. However, they did not write the requested decorator code, track execution times, or implement retry logic.\",\n      \"strengths\": \"Demonstrates a correct high-level, theoretical understanding of what decorators do conceptually.\",\n      \"weaknesses\": \"Failed to implement the parameterized decorator code, use standard library wrapper support (functools.wraps), log execution duration using the time library, or execute the retry logic loop.\",\n      \"sampleAnswer\": \"```python\\nimport time\\nfrom functools import wraps\\n\\ndef retry_on_failure(limit=3):\\n    def decorator(func):\\n        @wraps(func)\\n        def wrapper(*args, **kwargs):\\n            for attempt in range(1, limit + 1):\\n                start_time = time.perf_counter()\\n                try:\\n                    result = func(*args, **kwargs)\\n                    duration = time.perf_counter() - start_time\\n                    print(f\\\"{func.__name__} executed successfully in {duration:.4f}s\\\")\\n                    return result\\n                except ConnectionError as e:\\n                    duration = time.perf_counter() - start_time\\n                    print(f\\\"Attempt {attempt} of {limit} failed in {duration:.4f}s: {e}\\\")\\n                    if attempt == limit:\\n                        raise\\n        return wrapper\\n    return decorator\\n```\"\n    },\n    {\n      \"question\": \"Explain the difference between a list comprehension and a generator expression in Python in terms of memory efficiency and evaluation strategy. In what practical scenarios would you choose one over the other?\",\n      \"answer\": \"bhuv\",\n      \"rating\": 1,\n      \"correctness\": \"incorrect\",\n      \"correctnessExplanation\": \"The candidate provided a gibberish answer ('bhuv') which has no technical relevance.\",\n      \"strengths\": \"None.\",\n      \"weaknesses\": \"Did not explain list comprehensions (eagerly evaluated, loaded fully into memory) versus generator expressions (lazily evaluated, low constant memory footprint), nor did they outline any practical scenarios for choosing one over the other.\",\n      \"sampleAnswer\": \"List comprehensions are eagerly evaluated, meaning they calculate and store all elements in memory immediately, requiring O(n) memory. Generator expressions are lazily evaluated, yielding items one by one on-demand via the iterator protocol, requiring O(1) memory. You should choose list comprehensions when you need multiple iterations, index-based access, or to run list-specific operations (like sorting). You should choose generator expressions when working with massive or infinite streams, or when performing simple aggregations (like sum or any) where storing the whole collection is redundant.\"\n    },\n    {\n      \"question\": \"How does the Context Manager protocol work in Python (the `with` statement)? Write a custom class-based context manager (using `__enter__` and `__exit__`) that rolls back a database transaction if an exception occurs, or commits it if the block exits successfully.\",\n      \"answer\": \"jasss Database transaction if an exception occurs, more convincing if the block exits successfully.\",\n      \"rating\": 1,\n      \"correctness\": \"incorrect\",\n      \"correctnessExplanation\": \"The candidate responded with unintelligible words mixed with fragments copied directly from the prompt, without explaining the protocol or providing any code.\",\n      \"strengths\": \"None.\",\n      \"weaknesses\": \"Failed to explain the Context Manager protocol, and completely failed to write the custom transactional class-based context manager with `__enter__` and `__exit__` magic methods.\",\n      \"sampleAnswer\": \"```python\\nclass DatabaseTransaction:\\n    def __init__(self, db_connection):\\n        self.db = db_connection\\n\\n    def __enter__(self):\\n        self.db.begin_transaction()\\n        return self\\n\\n    def __exit__(self, exc_type, exc_val, exc_tb):\\n        if exc_type is not None:\\n            self.db.rollback()\\n            print(f\\\"Error occurred: {exc_val}. Transaction rolled back.\\\")\\n            return False  # Propagate exception\\n        else:\\n            self.db.commit()\\n            print(\\\"Transaction committed successfully.\\\")\\n            return True\\n```\\nContext Managers work via Python's `with` statement, invoking the `__enter__` method at block execution start, and guaranteeing the invocation of the `__exit__` method when exiting the block—even if exceptions are raised—to handle teardowns.\"\n    }\n  ]\n}",
+      "score": 10
+    },
+    {
+      "id": "9ho0ml5",
+      "createdAt": "2026-07-21T10:12:31.104Z",
+      "updatedAt": "2026-07-21T10:12:31.104Z",
+      "userId": "ppwgsx5",
+      "type": "technical",
+      "questions": [
+        "What is the difference between var, let, and const in JavaScript, and how would you decide which one to use in a given situation?",
+        "Write a JavaScript function that takes a string as input and returns the string with all vowels removed. How would you optimize this function for large strings?",
+        "Explain the concept of a 'closure' in JavaScript and provide an example of how it can be used in a real-world frontend application.",
+        "Suppose you are building a web application that needs to fetch data from a RESTful API. Describe the steps you would take to handle errors and loading states in your React or Angular application.",
+        "How would you implement a responsive navigation menu using CSS and JavaScript, ensuring that it works well on both desktop and mobile devices?"
+      ]
+    },
+    {
+      "id": "ewzios8",
+      "createdAt": "2026-07-21T17:03:48.424Z",
+      "updatedAt": "2026-07-21T17:03:48.424Z",
+      "userId": "zlnxn3m",
+      "type": "technical",
+      "questions": [
+        "Explain the difference between '==' and '.equals()' in Java, and provide an example of when to use each.",
+        "How does Java's garbage collection work, and what are some common pitfalls to avoid when trying to manage memory manually?",
+        "Write a Java method that takes a string as input and returns the string with all vowels removed.",
+        "Describe the concept of dependency injection in Java, and how it can be implemented using frameworks like Spring.",
+        "Given a Java class with a nested static class, explain how the inner class has access to the outer class's members, and provide an example of when this feature would be useful."
+      ]
+    },
+    {
+      "id": "vhk29ue",
+      "createdAt": "2026-07-21T17:04:20.257Z",
+      "updatedAt": "2026-07-21T17:04:20.257Z",
+      "userId": "zlnxn3m",
+      "type": "hr",
+      "questions": [
+        "Machine learning projects don't always yield the expected results. Can you describe a time when an ML model you built performed poorly or failed in production, and how you handled the situation?",
+        "Tell me about a time when you had a disagreement with a product manager or software engineer regarding model performance versus business requirements. How did you resolve it?",
+        "Describe a situation where you had to explain a complex machine learning concept or trade-off (such as precision vs. recall or latency vs. accuracy) to a non-technical stakeholder.",
+        "How do you balance the trade-off between spending time researching and fine-tuning a model for marginal gains versus delivering a 'good enough' solution quickly to meet business deadlines? Can you give a specific example?",
+        "The machine learning field evolves rapidly. Can you share an example of a new tool, framework, or paper you recently learned on your own initiative and successfully applied to a project?"
+      ]
+    },
+    {
+      "id": "chbebki",
+      "createdAt": "2026-07-21T17:26:46.919Z",
+      "updatedAt": "2026-07-21T17:26:46.919Z",
+      "userId": "zlnxn3m",
+      "type": "technical",
+      "questions": [
+        "How do you handle state management in a complex React application and what libraries or tools do you use?",
+        "Explain the difference between var, let, and const in JavaScript and provide an example use case for each.",
+        "Write a JavaScript function to fetch data from a REST API and handle potential errors, using async/await syntax.",
+        "Describe the concept of a Single Page Application (SPA) and how you would implement routing in a frontend framework like Angular or Vue.js.",
+        "Suppose you have a web page with a slow-loading image: write a brief code snippet using HTML and CSS to lazy-load the image and improve page load times."
+      ]
+    },
+    {
+      "id": "w5ufoei",
+      "createdAt": "2026-07-21T17:29:23.025Z",
+      "updatedAt": "2026-07-21T17:29:23.025Z",
+      "userId": "zlnxn3m",
+      "type": "technical",
+      "questions": [
+        "What is the difference between a controlled component and an uncontrolled component in React, and when would you use each?",
+        "Write a React function component that renders a list of items from an array, and handles adding and removing items from the list.",
+        "How does React handle state changes and re-renders, and what role do the `useState` and `useEffect` hooks play in this process?",
+        "Explain the concept of a higher-order component (HOC) in React, and provide an example of how you would use a HOC to add authentication to a component.",
+        "Suppose you have a React application with a complex component tree, and you notice that a particular component is re-rendering unnecessarily. What steps would you take to optimize the component's performance and prevent unnecessary re-renders?"
+      ]
+    },
+    {
+      "id": "o15n25p",
+      "createdAt": "2026-07-21T17:31:56.149Z",
+      "updatedAt": "2026-07-21T17:31:56.149Z",
+      "userId": "zlnxn3m",
+      "type": "technical",
+      "questions": [
+        "Explain the Global Interpreter Lock (GIL) in CPython. How does it impact CPU-bound versus I/O-bound tasks, and how would you bypass its limitations for heavy computations?",
+        "What is the issue with using a mutable default argument in a function definition (e.g., `def add_item(item, target_list=[])`)? Explain what happens behind the scenes and how to properly refactor it.",
+        "How does Python manage memory internally? Explain the difference between reference counting and the generational garbage collector, particularly regarding how reference cycles are handled.",
+        "How do decorators work in Python? Write a custom decorator `@retry(max_attempts=3)` that executes a wrapped function and automatically retries it up to `max_attempts` if an exception occurs.",
+        "How would you read and process a 10 GB text file in Python on a machine with only 4 GB of RAM? What built-in features or standard library modules would you use to ensure low memory consumption?"
+      ]
+    },
+    {
+      "id": "m2raw68",
+      "createdAt": "2026-07-21T17:35:04.628Z",
+      "updatedAt": "2026-07-21T17:35:04.628Z",
+      "userId": "zlnxn3m",
+      "type": "technical",
+      "questions": [
+        "Explain the difference between optimistic and pessimistic locking in relational databases. In what scenario would you choose one over the other?",
+        "How would you design a distributed rate limiter for a public API? Discuss the algorithms and data stores (e.g., Redis) you would use to handle high concurrency.",
+        "Compare traditional message queues (like RabbitMQ) and event streaming platforms (like Apache Kafka). What are the key trade-offs regarding message ordering, persistence, and consumer scaling?",
+        "How does JWT-based authentication work, and what strategies can you implement to handle immediate token revocation or logout before the token expires?",
+        "A backend service is experiencing a sudden, unexplained spike in latency and memory usage in production. Walk me through your step-by-step process for diagnosing and resolving the issue."
+      ]
+    },
+    {
+      "id": "o5xnfh9",
+      "createdAt": "2026-07-21T17:42:32.412Z",
+      "updatedAt": "2026-07-21T17:42:32.412Z",
+      "userId": "zlnxn3m",
+      "type": "hr",
+      "questions": [
+        "Tell me about a time when you had to collaborate with a team to debug a complex Python code. How did you handle it?",
+        "Describe a situation where you had to explain a technical concept, such as object-oriented programming in Python, to a non-technical team member. How did you approach it?",
+        "Can you give an example of a project where you had to optimize the performance of a Python application? What steps did you take and what were the results?",
+        "How do you handle conflicts or disagreements with team members regarding coding styles or best practices in Python? Can you give a specific example?",
+        "Tell me about a project or feature you developed in Python that you're particularly proud of. What motivated you to take on the challenge and what did you learn from the experience?"
+      ]
+    },
+    {
+      "id": "t6ifu3b",
+      "createdAt": "2026-07-21T17:46:25.922Z",
+      "updatedAt": "2026-07-21T17:46:25.922Z",
+      "userId": "zlnxn3m",
+      "type": "technical",
+      "questions": [
+        "What is the difference between static typing and dynamic typing, and how does Python's typing system fit into these categories?",
+        "Write a Python function to find the first duplicate in an array of integers. The function should return the duplicate value, or None if no duplicates exist.",
+        "How does Python's garbage collection work, and what are some common pitfalls to watch out for when dealing with object lifetimes?",
+        "Implement a Python class to represent a stack, including push, pop, and peek operations. How would you handle edge cases such as an empty stack?",
+        "What is the purpose of the 'with' statement in Python, and how does it relate to context managers? Provide an example use case."
+      ]
+    },
+    {
+      "id": "rnxkfxc",
+      "createdAt": "2026-07-22T01:21:11.750Z",
+      "updatedAt": "2026-07-22T01:21:11.750Z",
+      "userId": "zlnxn3m",
+      "type": "technical",
+      "questions": [
+        "What is your understanding of the sales funnel, and how do you optimize each stage to maximize conversions?",
+        "A sales team is experiencing a 20% decline in quarterly sales. How would you analyze the situation and develop a strategy to reverse the trend?",
+        "How do you balance the needs of short-term sales targets with long-term customer relationship building, and what metrics do you use to measure success?",
+        "Describe a situation where you had to negotiate a complex sales deal with multiple stakeholders. What strategies did you use, and what was the outcome?",
+        "If you were given a new sales territory with limited market data, how would you conduct market research and develop a go-to-market strategy to achieve sales targets within the first 6 months?"
+      ]
+    },
+    {
+      "id": "4in29k2",
+      "createdAt": "2026-07-24T17:57:42.598Z",
+      "updatedAt": "2026-07-24T17:57:42.598Z",
+      "userId": "kfiixcb",
+      "type": "technical",
+      "difficulty": "beginner",
+      "questions": [
+        "What is the difference between var, let, and const in JavaScript, and when would you use each?",
+        "How do you add an event listener to a button in HTML using JavaScript, and what are some best practices for handling events?",
+        "What is the purpose of the CSS box model, and how does it affect the layout of elements on a webpage?",
+        "Write a simple JavaScript function to toggle the visibility of a div element when a button is clicked.",
+        "What is the difference between null and undefined in JavaScript, and how would you check for these values in a conditional statement?"
+      ]
+    }
+  ]
+}

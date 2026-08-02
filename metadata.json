@@ -1,0 +1,11 @@
+{
+  "name": "CareerPulse AI",
+  "description": "An AI-powered platform for professional development, offering resume optimization, ATS scoring, cover letter generation, and personalized learning roadmaps.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #F8FAFC;
+    --foreground: #0F172A;
+    --card: #FFFFFF;
+    --card-foreground: #0F172A;
+    --border: #E2E8F0;
+    --sidebar-bg: #F1F5F9;
+    --brand-accent: #4F46E5;
+  }
+
+  .dark {
+    --background: #07090E;
+    --foreground: #F8FAFC;
+    --card: #0E131F;
+    --card-foreground: #F8FAFC;
+    --border: #1E293B;
+    --sidebar-bg: #0B0E17;
+    --brand-accent: #6366F1;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Glassmorphism utility classes */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.dark .glass-card {
+  background: rgba(14, 19, 31, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Glowing ambient background orbs */
+@keyframes ambientGlow {
+
+  0%,
+  100% {
+    opacity: 0.15;
+    transform: scale(1) translateY(0px);
+  }
+
+  50% {
+    opacity: 0.3;
+    transform: scale(1.08) translateY(-10px);
+  }
+}
+
+.animate-pulse-glow {
+  animation: ambientGlow 8s ease-in-out infinite;
+}
+
+/* Custom dark mode overrides for standard layout elements */
+.dark body {
+  background-color: #07090E;
+  color: #F8FAFC;
+}
+
+.dark aside {
+  background-color: #0B0E17 !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.dark .bg-white {
+  background-color: #0E131F !important;
+  color: #F8FAFC;
+}
+
+.dark .bg-zinc-50,
+.dark .bg-zinc-50\/50,
+.dark .bg-zinc-100 {
+  background-color: #171E2E !important;
+}
+
+.dark .border-ink\/10,
+.dark .border-zinc-200,
+.dark .border-zinc-200\/60 {
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.dark .text-zinc-900,
+.dark .text-zinc-950,
+.dark .text-ink {
+  color: #F8FAFC !important;
+}
+
+.dark .text-zinc-600,
+.dark .text-zinc-500,
+.dark .text-ink\/70,
+.dark .text-ink\/60 {
+  color: #94A3B8 !important;
+}
