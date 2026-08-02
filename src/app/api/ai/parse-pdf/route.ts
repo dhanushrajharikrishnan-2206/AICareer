@@ -1,6 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import { askAI, cleanAndParseJson } from "@/lib/ai";
-const pdf = require("pdf-parse");
+async function parsePdfBuffer(pdfBuffer: Buffer): Promise<{ text: string }> {
+  const pdfModule = require("pdf-parse");
+  const pdfFn = typeof pdfModule === "function" ? pdfModule : (pdfModule.default || pdfModule);
+
+  if (typeof pdfFn === "function") {
+    return await pdfFn(pdfBuffer);
+  } else if (typeof pdfModule.PDFParse === "function") {
+    const parser = new pdfModule.PDFParse({ data: pdfBuffer });
+    return await parser.getText();
+  } else {
+    throw new Error("Unable to initialize PDF parsing library.");
+  }
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -14,7 +26,7 @@ export async function POST(req: NextRequest) {
     
     // Parse PDF text locally using pdf-parse
     const pdfBuffer = Buffer.from(base64Data, "base64");
-    const pdfData = await pdf(pdfBuffer);
+    const pdfData = await parsePdfBuffer(pdfBuffer);
     const extractedText = pdfData.text || "";
 
     if (!extractedText.trim()) {
